@@ -13,4 +13,3 @@
   ![掌上邑大](http://www.imstuding.com/image/11.png)
   ![掌上邑大](http://www.imstuding.com/image/12.png)
   ![掌上邑大](http://www.imstuding.com/image/13.png)
-  ![掌上邑大](http://www.imstuding.com/image/1.png)
