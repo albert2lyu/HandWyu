@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/collect_black"
+        android:title="加入生词本"
+        android:orderInCategory="0"
+        android:id="@+id/menu_addstrange"/>
+    <item
+        android:icon="@drawable/correct"
+        android:title="纠正该单词"
+        android:orderInCategory="1"
+        android:id="@+id/menu_correct"/>
+</menu>

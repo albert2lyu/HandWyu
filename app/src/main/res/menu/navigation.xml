@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_notice"
+        android:icon="@drawable/chat"
+        android:title="@string/title_notice" />
+    <item
+        android:id="@+id/navigation_table"
+        android:icon="@drawable/calendar"
+        android:title="@string/title_table" />
+
+    <item
+        android:id="@+id/navigation_score"
+        android:icon="@drawable/form"
+        android:title="@string/title_score" />
+
+    <item
+        android:id="@+id/navigation_find"
+        android:icon="@drawable/compass"
+        android:title="@string/title_compass" />
+
+</menu>

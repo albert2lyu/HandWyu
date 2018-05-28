@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_score_bug"
+        android:icon="@drawable/scorebug"
+        android:title="有问题？去反馈！" />
+
+</menu>

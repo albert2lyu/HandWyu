@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.imstuding.www.handwyu.SchoolCard.SchoolCardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_margin="5dp"
+            android:background="@drawable/school_card_btn"
+            android:id="@+id/school_card_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="捡到饭卡/丢失饭卡" />
+
+
+        <Button
+            android:layout_margin="5dp"
+            android:background="@drawable/school_card_btn"
+            android:id="@+id/school_card_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="我的饭卡" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+    <ListView
+        android:background="#EBEBEB"
+        android:layout_margin="5dp"
+        android:id="@+id/school_card_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>

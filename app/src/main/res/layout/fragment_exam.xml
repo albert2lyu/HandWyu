@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EBEBEB"
+    tools:context="com.imstuding.www.handwyu.MainUi.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_score"
+            android:id="@+id/btn_exam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询详细"
+            android:textColor="#000000"/>
+
+        <Spinner
+            android:id="@+id/spinner_exam_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_score"
+            android:gravity="center"></Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:background="@drawable/shape_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="考试课程"
+            android:layout_weight="0.6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/shape_score"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <ListView
+            android:id="@+id/exam_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"></ListView>
+    </LinearLayout>
+
+</LinearLayout>

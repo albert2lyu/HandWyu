@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:text="1、*问题描述"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="不仅仅是bug,有什么好的建议也可以反馈哦，谢谢"
+        android:layout_marginTop="10dp"
+        android:layout_margin="5dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:background="@drawable/shape_edit"
+        android:id="@+id/edit_bug"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:text="2、*联系方式"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_contact_bug"
+        android:hint="手机/QQ/微信/随便一个或多个"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btn_bug"
+        android:layout_margin="20dp"
+        android:text="提交"
+        android:background="@drawable/shape_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_join"
+        android:layout_margin="20dp"
+        android:text="加入反馈群和开发者面对面"
+        android:background="@drawable/shape_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

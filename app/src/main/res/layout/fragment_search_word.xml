@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Search_layout"
+    android:background="#EBEBEB"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:layout_toLeftOf="@+id/imageView"
+            android:hint="查单词，用我啊！"
+            android:id="@+id/dic_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <ImageView
+            android:layout_toLeftOf="@+id/dic_search"
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/widget_middle_pressed" />
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:id="@+id/dic_search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_style" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dic_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:textColor="#008B8B"
+            android:textSize="10pt"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <TextView
+            android:id="@+id/dic_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:textColor="#008B8B"
+            android:textSize="8pt"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent">
+        <ListView
+            android:layout_gravity="bottom"
+            android:id="@+id/list_search_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </LinearLayout>
+</LinearLayout>

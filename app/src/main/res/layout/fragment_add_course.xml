@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:text="课程名称："
+        android:layout_width="80dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:background="@drawable/shape_edit"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        android:id="@+id/fragment_add_kcmc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:text="上课地点："
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@drawable/shape_edit"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:id="@+id/fragment_add_jxcdmc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:text="老师名字："
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@drawable/shape_edit"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:id="@+id/fragment_add_teaxms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:text="星期几："
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/fragment_add_spinner_xq"
+            android:entries="@array/xqdata"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:text="第几大节："
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/fragment_add_spinner_js"
+            android:entries="@array/jsdata"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:text="周次："
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:layout_weight="1"
+            android:text="开始："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/fragment_add_spinner_start"
+            android:entries="@array/zcdata"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></Spinner>
+        <TextView
+            android:layout_weight="1"
+            android:text="结束："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/fragment_add_spinner_end"
+            android:entries="@array/zcdata"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></Spinner>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/fragment_add_cancel"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape"
+            android:text="取消"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_margin="5dp"
+            android:background="@drawable/shape"
+            android:text="添加"
+            android:id="@+id/fragment_add_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

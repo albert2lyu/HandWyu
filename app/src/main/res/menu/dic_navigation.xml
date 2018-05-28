@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dic_navigation_search"
+        android:icon="@drawable/dic_search"
+        android:title="查单词" />
+
+    <item
+        android:id="@+id/dic_navigation_book"
+        android:icon="@drawable/strangebook"
+        android:title="生词本" />
+
+    <item
+        android:id="@+id/dic_navigation_history"
+        android:icon="@drawable/dic_history"
+        android:title="历史记录" />
+
+</menu>

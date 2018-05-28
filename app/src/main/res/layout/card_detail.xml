@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#EBEBEB">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/card_num"
+            android:gravity="left"
+            android:text="卡号:"
+            android:textSize="7pt" />
+
+        <TextView
+            android:id="@+id/card_kanum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text=""
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#EBEBEB">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/creattime"
+            android:gravity="left"
+            android:text="时间:"
+            android:textSize="7pt" />
+
+        <TextView
+            android:id="@+id/card_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text=""
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#EBEBEB"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:drawableLeft="@drawable/type"
+            android:textSize="7pt"
+            android:gravity="left"
+            android:text="类型:"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/card_type"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#EBEBEB"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:drawableLeft="@drawable/phone"
+            android:textSize="7pt"
+            android:gravity="left"
+            android:text="联系方式:"
+            android:layout_width="80dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/card_phone"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="#EBEBEB">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/dsc"
+            android:gravity="left"
+            android:text="描述:"
+            android:textSize="7pt" />
+
+        <TextView
+            android:id="@+id/card_dsc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text=""
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</LinearLayout>

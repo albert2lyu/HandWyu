@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:id="@+id/layout_second_score"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:background="@drawable/wyu_s"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <EditText
+                android:drawableLeft="@drawable/user"
+                android:padding="10dp"
+                android:id="@+id/second_id"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="5"
+                android:background="@drawable/shape_edit"
+                android:hint="请输入学号"
+                android:singleLine="true"
+                android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <EditText
+                android:drawableLeft="@drawable/password"
+                android:padding="10dp"
+                android:id="@+id/second_pwd"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="5"
+                android:background="@drawable/shape_edit"
+                android:hint="请输入子系统密码"
+                android:password="true"
+                android:singleLine="true"
+                android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/second_keeppwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:text="记住密码" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/btn_second_score"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:text="登录"
+                android:textColor="#000000" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:text="注意：是原来旧系统的密码，不是新的教务系统的密码。不要连续输入错误密码三次，这样你的IP会被锁定几小时的。"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

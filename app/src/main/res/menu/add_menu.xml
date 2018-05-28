@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_add_table"
+        android:icon="@drawable/lead"
+        android:title="@string/title_add_table" />
+    <item
+        android:id="@+id/menu_all_class"
+        android:icon="@drawable/allclass"
+        android:title="全部课程" />
+    <item
+        android:id="@+id/menu_add_course"
+        android:icon="@drawable/addcourse"
+        android:title="增加课程" />
+    <item
+        android:id="@+id/menu_sub_course"
+        android:icon="@drawable/subcourse"
+        android:title="删除课程" />
+    <item
+        android:id="@+id/menu_set_zc"
+        android:icon="@drawable/pin"
+        android:title="@string/title_set_zc" />
+
+
+</menu>

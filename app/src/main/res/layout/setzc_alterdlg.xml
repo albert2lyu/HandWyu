@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请设置当前周次" />
+    <!--下拉方式选周数-->
+    <Spinner
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/spinner_setWeek"
+        android:layout_width="100dp"
+        android:layout_height="match_parent" />
+        <Button
+            android:layout_gravity="right"
+            android:text="确定"
+            android:id="@+id/btn_setweek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

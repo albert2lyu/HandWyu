@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/web_menu_update"
+        android:icon="@drawable/web_refresh"
+        android:title="刷新界面" />
+</menu>

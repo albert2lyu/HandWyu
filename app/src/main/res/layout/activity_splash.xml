@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:id="@+id/splash_ad"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg" />
+
+                <Button
+                    android:layout_gravity="right"
+                    android:id="@+id/jump_btn"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/splash_exit"
+                    android:text="跳过"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="bottom"
+                    android:text="广告"
+                    android:textColor="#FFFFFF" />
+        </FrameLayout>
+
+</LinearLayout>

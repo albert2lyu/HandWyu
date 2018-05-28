@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:singleLine="true"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        android:layout_weight="1"
+        android:id="@+id/correct_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:singleLine="true"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        android:layout_weight="1"
+        android:id="@+id/correct_symbol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <EditText
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        android:id="@+id/correct_meaning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textSize="10pt"
+            android:text="确定"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:layout_weight="1"
+            android:id="@+id/correct_yes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textSize="10pt"
+            android:text="取消"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:layout_weight="1"
+            android:id="@+id/correct_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

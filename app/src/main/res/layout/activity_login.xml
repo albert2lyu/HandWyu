@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main_layout"
+    tools:context="com.imstuding.www.handwyu.MainUi.MainActivity">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/wyu_s"
+        android:layout_width="128dp"
+        android:layout_height="128dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <EditText
+                android:drawableLeft="@drawable/user"
+                android:padding="10dp"
+                android:id="@+id/wyu_id"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="5"
+                android:background="@drawable/shape_edit"
+                android:hint="请输入学号"
+                android:singleLine="true"
+                android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <EditText
+                android:drawableLeft="@drawable/password"
+                android:padding="10dp"
+                android:id="@+id/wyu_pwd"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="5"
+                android:background="@drawable/shape_edit"
+                android:hint="请输入密码"
+                android:password="true"
+                android:singleLine="true"
+                android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="验证码:"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:padding="10dp"
+                android:id="@+id/wyu_verifycode"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/shape_edit"
+                android:singleLine="true"
+                android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+            <ImageView
+                android:background="@drawable/yzm"
+                android:id="@+id/wyu_verpic"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/wyu_keeppwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:text="记住密码" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/wyu_login"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:text="登录"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_margin="5dp"
+        android:drawableLeft="@drawable/kanum"
+        android:padding="10dp"
+        android:id="@+id/add_card_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_edit"
+        android:hint="请输入学号"
+        android:singleLine="true"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+    <EditText
+        android:layout_margin="5dp"
+        android:drawableLeft="@drawable/add_phone"
+        android:padding="10dp"
+        android:id="@+id/add_card_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_edit"
+        android:hint="联系方式"
+        android:singleLine="true"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+    <EditText
+        android:hint="描述：时间，地点等等"
+        android:layout_marginTop="10dp"
+        android:layout_margin="5dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:background="@drawable/shape_edit"
+        android:id="@+id/add_card_dsc"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <RadioGroup
+        android:id="@+id/add_card_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/add_card_find"
+            android:checked="true"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="捡到饭卡" />
+
+        <RadioButton
+            android:id="@+id/add_card_lose"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="丢失饭卡" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:gravity="center"
+            android:id="@+id/add_card_cancel"
+            android:layout_margin="15dp"
+            android:background="@drawable/shape"
+            android:text="取消"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:gravity="center"
+            android:id="@+id/add_card_submit"
+            android:layout_margin="15dp"
+            android:background="@drawable/shape"
+            android:text="提交"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

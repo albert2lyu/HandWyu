@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/delete_black"
+        android:title="从历史记录中移除"
+        android:orderInCategory="0"
+        android:id="@+id/history_menu_remove"/>
+</menu>

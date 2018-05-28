@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EBEBEB"
+    tools:context="com.imstuding.www.handwyu.MainUi.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_score"
+            android:id="@+id/btn_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查成绩"
+            android:textColor="#000000"/>
+
+        <Spinner
+            android:id="@+id/spinner_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_score"
+            android:gravity="center"></Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:background="@drawable/shape_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="课程名称"
+            android:layout_weight="0.6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:text="学分"
+            android:layout_weight="1.6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:text="成绩"
+            android:layout_weight="1.6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:text="类别"
+            android:layout_weight="1.6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/shape_score"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <ListView
+            android:id="@+id/score_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"></ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textSize="10dp"
+            android:text="全选"
+            android:id="@+id/btn_select_all"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_score"
+            android:layout_width="60dp"
+            android:layout_height="35dp" />
+
+        <Button
+            android:textSize="10dp"
+            android:id="@+id/calculate_score"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_score"
+            android:text="计算绩点" />
+
+        <TextView
+            android:textSize="10dp"
+            android:id="@+id/show_scorepoint"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_score"
+            android:singleLine="true"
+            android:text="绩点:0" />
+
+        <Button
+            android:id="@+id/study_inf"
+            android:textSize="10dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_score"
+            android:text="学习情况"
+            android:layout_width="60dp"
+            android:layout_height="35dp" />
+    </LinearLayout>
+</LinearLayout>

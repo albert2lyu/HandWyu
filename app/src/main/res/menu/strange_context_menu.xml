@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/delect_red"
+        android:title="从生词本中移除"
+        android:orderInCategory="0"
+        android:id="@+id/menu_remove"/>
+    <item
+        android:icon="@drawable/collect_red"
+        android:title="加入新的生词"
+        android:orderInCategory="1"
+        android:id="@+id/menu_addword"/>
+</menu>
